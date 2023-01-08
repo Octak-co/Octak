@@ -1,0 +1,209 @@
+body {
+  font-family: 'Chakra Petch', sans-serif;
+  background-image: linear-gradient(to bottom, #4dc4ef, #40afe0, #389ad1, #3385c0, #3271ae, #34649e, #34588d, #324c7d, #31456c, #303e5c, #2e374c, #2b303c);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  color: #2b303c;
+  scroll-behavior: smooth;
+}
+
+#img_logor {
+  width: 62px;
+  height: 62px;
+  border-radius: 16px;
+  margin-left: 10px;
+  margin-top: 2px;
+  align-self: center;
+}
+
+#button_logout {
+  font-size: 28px;
+  border-radius: 5px;
+  box-shadow: 2px 2px 12px #374258;
+  width: 80px;
+  float: right;
+  background-color: #2b303c;
+height: 50px;
+color: #4dc4ef;
+border-radius: 8px;
+margin-right: 10px;
+margin-top: 10px;
+font-weight: 600;
+}
+
+#h1_octak {
+  color: #2B303C;
+  font-size: 80px;
+  font-weight: 800;
+}
+
+#div_doubt {
+  background-image: linear-gradient(to bottom, #416394, #3761a7, #335eb8, #3c58c8, #4f50d4);
+  color: whitesmoke;
+  width: 49%;
+  border-radius: 10px;
+  margin-left: 10px;
+  float: left;
+  box-shadow: 2px 2px 12px #254462;
+  font-weight: bold;
+ align-content: center;
+ height: 16%;
+ font-size: 34px;
+}
+
+#div_doubt:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+  background-color: #365b78;
+}
+
+#div_review {
+  background-image: linear-gradient(to top, #346bb7, #3c76c7, #4580d7, #4d8be7, #5696f8);
+  color: whitesmoke;
+  width: 49%;
+  border-radius: 10px;
+  margin-right: 10px;
+  float: right;
+  box-shadow: 2px 2px 12px #3973a6;
+  font-weight: bold;
+  align-content: center;
+  height: 16%;
+  font-size: 34px;
+}
+
+#div_review:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+  background-color: #ffffff;
+}
+
+#div_chat {
+  background-image: linear-gradient(to right top, #466797, #406aa1, #376dab, #2971b6, #0f74c0);
+  color: whitesmoke;
+  width: 49%;
+  border-radius: 10px;
+  margin-left: 10px;
+  float: left;
+  box-shadow: 2px 2px 12px #254462;
+  font-weight: bold;
+  align-content: center;
+  height: 16%;
+  font-size: 34px;
+}
+
+#div_chat:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+  background-color: #365b78;
+}
+
+#div_game {
+  background-image: linear-gradient(to bottom, #416394, #3761a7, #335eb8, #3c58c8, #4f50d4);
+  color: whitesmoke;
+  width: 49%;
+  border-radius: 10px;
+  margin-right: 10px;
+  float: right;
+  box-shadow: 2px 2px 12px #254462;
+  font-weight: bold;
+  align-content: center;
+  height: 16%;
+  font-size: 34px;
+}
+
+#div_game:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+  background-color: #ffffff;
+}
+
+#div_sport {
+  background-image: linear-gradient(to top, #4d7bc0, #3a6bc4, #3358c6, #3a43c3, #4b25bc);
+  width: 49%;
+  border-radius: 10px;
+  margin-left: 10px;
+  float: left;
+  box-shadow: 2px 2px 12px #254462;
+  color: whitesmoke;
+  font-weight: bold;
+  align-content: center;
+  height: 16%;
+  font-size: 34px;
+}
+
+#div_sport:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+  background-color: #365b78;
+}
+
+#div_creator {
+  background-image: linear-gradient(to top, #537fbc, #4579c2, #3772c7, #2a6bcb, #1c63cf);
+  color: whitesmoke;
+  width: 49%;
+  border-radius: 10px;
+  margin-right: 10px;
+  float: right;
+  box-shadow: 2px 2px 12px #3973a6;
+  font-weight: bold;
+  align-content: center;
+  height: 16%;
+  font-size: 34px;
+}
+
+#div_creator:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+  background-color: #ffffff;
+}
+
+#div_revamp {
+  background-image: linear-gradient(to left top, #2e79e5, #3373db, #366dd1, #3868c8, #3a62be);
+  color: whitesmoke;
+  width: 49%;
+  border-radius: 10px;
+  margin-left: 10px;
+  float: left;
+  box-shadow: 2px 2px 12px #254462;
+  font-weight: bold;
+  align-content: center;
+  height: 16%;
+  font-size: 34px;
+}
+
+#div_revamp:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+  background-color: #365b78;
+}
+
+#div_tech {
+  background-image: linear-gradient(to top, #7baffd, #5f91f3, #4d71e5, #474fd3, #4b25bc);
+  color: whitesmoke;
+  width: 49%;
+  border-radius: 10px;
+  margin-right: 10px;
+  float: right;
+  box-shadow: 2px 2px 12px #3973a6;
+  font-weight: bold;
+  align-content: center;
+  height: 16%;
+  font-size: 34px;
+}
+
+#div_tech:hover {
+  transform: scale(1.02);
+  transition: 0.2s;
+  background-color: #ffffff;
+}
+
+#div_contactr {
+  color: #4DC4EF;
+  background-color: #2b303c;
+  margin-top: 400px;
+  box-shadow: 2px 2px 12px rgb(45, 103, 184);
+  width: 100%;
+  bottom: 0;
+}

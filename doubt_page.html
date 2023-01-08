@@ -1,0 +1,98 @@
+<html>
+  <head>
+<title>
+  Octak
+</title>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Chakra+Petch:wght@400;600&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="doubt_page.css">
+
+    <script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-app.js"></script>
+<script src="https://www.gstatic.com/firebasejs/7.6.2/firebase-firestore.js"></script>
+<script src="https://www.gstatic.com/firebasejs/live/3.1/firebase.js"></script>
+
+  </head>
+  <body>
+    <center>
+      <h1 id="h1_octakdc">OCTAK
+        <img src="Octak logo.png" alt="(⁠ب⁠_⁠ب⁠) sorry can't load image" id="img_logodc">
+        <button id="button_logoutdc" class="glyphicon glyphicon-log-out" onclick="logout()" ></button>
+        </h1>
+        <br>
+        <br>
+      <div id="div_changedc">
+        <div id="div_reviewdc" onclick="doubt_page()">
+          <h3 style="margin-left: 20px;">Review Community</h3>
+              </div>
+<hr>
+<br>
+<br>
+              <div id="div_chatdc" onclick="doubt_page()">
+                <h3 style="margin-left: 20px;">Chat Community</h3> 
+                    </div>
+                    <hr>
+<br>
+                    <br>
+                    <div id="div_gamedc" onclick="doubt_page()">
+                      <h3 style="margin-left: 20px;">Gamer Community</h3>
+                      </div>
+                      <hr>
+<br>
+                      <br>
+                      <div id="div_sportdc" onclick="doubt_page()">
+                        <h3 style="margin-left: 20px;">Sports Community</h3>
+                            </div>
+                            <hr>
+<br>
+                            <br>
+                            <div id="div_creatordc" onclick="doubt_page()">
+                              <h3 style="margin-left: 20px;">Creator Community</h3>
+                              </div>
+                              <hr>
+<br>
+                                  <br>
+                                  
+                                  <div id="div_revampdc" onclick="doubt_page()">
+                                    <h3 style="margin-left: 20px;">Revamp Community</h3>
+                                        </div>
+                                        <hr>
+<br>
+                                        <br>
+                                  <div id="div_techdc" onclick="doubt_page()">
+                                    <h3 style="margin-left: 20px">Tech Community</h3>
+                                    </div>
+                                    <hr>
+<br>
+      </div>
+    <div id="div_trendingdc"></div>
+    <br>
+    <br>
+    <div id="div_addRoomdc">
+      <h3 style="font-size: 22px; font-weight: 800;" >Type Your Room Name: </h3>
+      <input type="text" id="input_messagedc" placeholder="AddRoom">
+      <br>
+      <br>
+      <button id="button_addRoomdc" onclick="addRoom()">#AddRoom</button>
+      <br>
+      <u style="color: #4dc4ef;"><h6 id="h6_noUsernamedc" style="color: #4dc4ef; font-size: 13px; margin-left: 5px;"></h6></u>
+    </div>
+
+    <div id="div_contactdc">
+      <img src="Octak logo.png" alt="(⁠ب⁠_⁠ب⁠) sorry can't load image" style="width: 100px; height:100px;">
+
+    <br>
+
+      <a href="https://www.youtube.com/@octak/featured"><img src="Youtube_octak.png" alt="(⁠ب⁠_⁠ب⁠) sorry can't load image" style="width: 80px; height:80px;"></a>
+      <a href="https://discord.gg/4uGM4gzwGq"><img src="Discord_octak.png" alt="(⁠ب⁠_⁠ب⁠) sorry can't load image" style="width: 80px; height:80px;"></a>
+      <a href="https://koji.to/@Octak"><img src="Koji_octak.png" alt="(⁠ب⁠_⁠ب⁠) sorry can't load image" style="width: 80px; height:80px;"></a>
+      <a href="https://opensea.io/Octak"><img src="OpenSea_octak.png" alt="(⁠ب⁠_⁠ب⁠) sorry can't load image" style="width: 80px; height:80px;"></a>
+      <p style="font-size: 22px;">octak.co@gmail.com</p>
+    </div>
+
+    <script src="doubt_page.js"></script>
+  </body>
+  </html>
